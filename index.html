@@ -14,6 +14,7 @@
 
   <body>
   <div class="container">
+    <h1 class="btn btn-default heading">Face Recognition Web App</h1>
     
     <center>
 
@@ -33,7 +34,7 @@
       </b>
 
       <label>Webcam View - </label>
-
+      <div id="camera"></div>
       <br><br>
       <div id="result"></div>
       <br><br>
@@ -42,8 +43,8 @@
       <button onclick="onclick();" class="btn btn-success">Identify Image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object :  </p>
-      <p style="font-size: 22px;">Accuracy :  </p>
+      <p style="font-size: 22px; font-family: fantasy;">Object :<span id="object_name"></span>  </p>
+      <p style="font-size: 22px; font-family: fantasy;">Accuracy :<span id="object_accuracy"></span>  </p>
     </center>
 
   </div>
